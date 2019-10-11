@@ -1,1 +1,33 @@
 // Navigation Styles here
+header {
+    // border:2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    border-bottom: 2px dashed #C0C0C0;
+    @media @phone {
+        display:flex;
+        flex-direction: column;
+    }
+    h1 {
+        margin-left: 8%; 
+        @media @phone {
+        margin-left: 30%;
+        margin-bottom: 3%;
+        }
+    }
+    nav {
+        font-size: 1.9rem;
+        margin-right:10%;
+        margin-bottom: 3%;
+        
+        @media @phone {
+            margin-left: 10%;
+         }
+        a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+        }
+    }//nav 
+}//header 
