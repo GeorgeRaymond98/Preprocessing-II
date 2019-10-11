@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header nav {
+  font-size: 1.9rem;
+  margin-right: 10%;
+}
+header nav a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
